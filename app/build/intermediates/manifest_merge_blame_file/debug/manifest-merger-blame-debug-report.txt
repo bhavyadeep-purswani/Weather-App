@@ -1,0 +1,72 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.weather"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->/Users/bhavyadeeppurswani/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/bhavyadeeppurswani/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/bhavyadeeppurswani/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/bhavyadeeppurswani/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/bhavyadeeppurswani/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/bhavyadeeppurswani/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/bhavyadeeppurswani/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:7:5-81
+13-->/Users/bhavyadeeppurswani/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:7:22-78
+14
+15    <application
+15-->/Users/bhavyadeeppurswani/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:8:5-22:19
+16        android:allowBackup="true"
+16-->/Users/bhavyadeeppurswani/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:9:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] /Users/bhavyadeeppurswani/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/bhavyadeeppurswani/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:10:9-43
+20        android:label="@string/app_name"
+20-->/Users/bhavyadeeppurswani/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:11:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/bhavyadeeppurswani/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:12:9-54
+22        android:supportsRtl="true"
+22-->/Users/bhavyadeeppurswani/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:13:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->/Users/bhavyadeeppurswani/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:14:9-40
+25        <activity android:name="com.example.weather.View.MainActivity" >
+25-->/Users/bhavyadeeppurswani/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:15:9-21:20
+25-->/Users/bhavyadeeppurswani/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:15:19-52
+26            <intent-filter>
+26-->/Users/bhavyadeeppurswani/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:16:13-20:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/Users/bhavyadeeppurswani/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:17:17-69
+27-->/Users/bhavyadeeppurswani/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:17:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/Users/bhavyadeeppurswani/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:19:17-77
+29-->/Users/bhavyadeeppurswani/AndroidStudioProjects/Weather/app/src/main/AndroidManifest.xml:19:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->[com.google.android.gms:play-services-base:17.0.0] /Users/bhavyadeeppurswani/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+33            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+33-->[com.google.android.gms:play-services-base:17.0.0] /Users/bhavyadeeppurswani/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+34            android:exported="false"
+34-->[com.google.android.gms:play-services-base:17.0.0] /Users/bhavyadeeppurswani/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+35            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+35-->[com.google.android.gms:play-services-base:17.0.0] /Users/bhavyadeeppurswani/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+36
+37        <meta-data
+37-->[com.google.android.gms:play-services-basement:17.0.0] /Users/bhavyadeeppurswani/.gradle/caches/transforms-2/files-2.1/7776b584620742c136a710fb5c4bb9f3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+38            android:name="com.google.android.gms.version"
+38-->[com.google.android.gms:play-services-basement:17.0.0] /Users/bhavyadeeppurswani/.gradle/caches/transforms-2/files-2.1/7776b584620742c136a710fb5c4bb9f3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+39            android:value="@integer/google_play_services_version" />
+39-->[com.google.android.gms:play-services-basement:17.0.0] /Users/bhavyadeeppurswani/.gradle/caches/transforms-2/files-2.1/7776b584620742c136a710fb5c4bb9f3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+40    </application>
+41
+42</manifest>
