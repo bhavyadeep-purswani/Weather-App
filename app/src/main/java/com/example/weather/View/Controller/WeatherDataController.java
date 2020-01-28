@@ -13,7 +13,7 @@ import com.example.weather.R;
 
 
 public class WeatherDataController extends Controller {
-    private ImageView mWeatherImage;
+    private TextView mWeatherImage;
     private TextView mWeatherTemperature;
     private TextView mWeatherTempMin;
     private TextView mWeatherTempMax;
@@ -31,8 +31,8 @@ public class WeatherDataController extends Controller {
         mProgressBar = view.findViewById(R.id.progressBar);
         return view;
     }
-    public void setWeatherImage(Bitmap bitmap) {
-        mWeatherImage.setImageBitmap(bitmap);
+    public void setWeatherImage(String string) {
+        mWeatherImage.setText(string);
     }
     public void setWeatherTemperature(String text) {
         mWeatherTemperature.setText(text);
